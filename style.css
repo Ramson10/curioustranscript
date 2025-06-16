@@ -1,0 +1,639 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+.bg-section {
+      background-image: url(img/ct\ img.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      
+      width: 100%;
+    }
+
+.bg-section h1 {
+      font-size: 60px;
+      font-weight: normal;
+      
+      
+    }
+
+.bg-section p {
+
+    font-size: 22px;
+    
+
+}
+
+.text-content {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  padding: 2rem;
+  
+}
+
+.welcome-div {
+
+    height: 75px;
+    background-color: dimgray;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+}
+
+.welcomea-div h1 {
+    font-size: 26px;
+}
+
+.welcomea-div {
+
+    width: 22%;
+    color: white;
+    float: left;
+    text-align: center;
+    
+    
+}
+
+.welcomea2-div {
+
+    width: 60%;
+    float: right;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 0 0 0;
+    gap: 35px;
+    
+    
+}
+
+.welcomea2-div a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.welcomea2-div a:hover {
+
+    text-decoration: underline;
+}
+
+
+
+.header img {
+
+    width: 100%;
+}
+
+.main {
+
+    width: 100%;
+    height: max-content;
+    background-color: white;
+}
+
+.link a {
+
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    border: none;
+    width: 15px;
+    margin: 10px;
+    background: rgb(219, 234, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+
+.services {
+
+    width: 90%;
+    height: 550px;
+    background-color: rgb(247, 246, 246);
+    margin: 35px auto;
+    display: flex;
+
+
+ }
+
+.about-me {
+
+    width: 70%;
+    height: max-content;
+    background-color: rgb(247, 246, 246);
+    margin: 35px auto;
+    display: flex;
+
+}
+
+.samples {
+
+    width: 90%;
+    height: 550px;
+    background-color: rgb(247, 246, 246);
+    margin: 35px auto;
+
+}
+
+.pricing {
+
+    width: 90%;
+    height: 550px;
+    background-color: rgb(247, 246, 246);
+    margin: 35px auto;
+
+
+}
+
+.contact-me {
+
+    width: 100%;
+    height: max-content;
+    background-color: rgb(247, 246, 246);
+    padding-bottom: 10%;
+
+
+}
+
+.modal-content-2 {
+
+  color: gray;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-content-2 h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.working-hour {
+
+    width: 100%;
+    height: 700px;
+    background-color: rgb(219, 234, 240);
+    display: flex;
+
+
+}
+
+.work-con {
+
+    width: 90%;
+    background-color: white;
+    margin: 5%;
+}
+
+.work-hour {
+
+    float: left;
+    color: gray;
+    padding: 50px;
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.work-hour h1 {
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.work-hour p {
+
+    font-size: 18px;
+
+}
+
+
+.work-hour2 {
+
+    float: right;
+    color: blue;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.popup-form {
+  margin-top: 20px;
+}
+
+.popup-form input,
+.popup-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.popup-form textarea {
+
+  min-height: 100px;
+}
+
+.popup-form button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  
+}
+
+.div-text1 {
+
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    height: max-content;
+
+
+}
+
+.div-text1 h1 {
+
+    text-align: center;
+    font-size: 34px;
+    font-weight: normal;
+
+}
+
+.inside {
+
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    min-height: 600px;
+    color: gray;
+    
+}
+
+.inside p {
+
+    text-align: center;
+    margin: 25px;
+   
+}
+
+
+
+.inside-1 img {
+
+    width: 100%;
+    float: none;
+    height: 450px;
+}
+
+.inside-2 {
+
+    
+    height: max-content;
+    text-align: center;
+    margin: 25px;
+    font-size: 34px;
+    font-weight: normal;
+
+}
+
+.inside-2 h1 {
+
+    text-align: center;
+    margin: 25px;
+    font-size: 34px;
+    font-weight: normal;
+
+}
+
+.div-img1 {
+
+    float: right;
+    width: 50%;
+    border-left: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    height: max-content;
+
+}
+
+.aboutme {
+
+    width: 100%;
+    height: max-content;
+    background-color: rgb(219, 234, 240);
+    display: flex;
+    
+
+}
+
+.aboutme-a {
+
+    width: 60%;
+    float: left;
+    font-size: 18px;
+    color: gray;
+    padding: 5%;
+
+}
+
+#aboutme-a  {
+
+    width: 100%;
+    float: none;
+}
+
+#aboutme-a p {
+
+    text-align: center;
+}
+
+.about-con table {
+
+    line-height: 30px;
+    
+    
+}
+
+.about-con th, td {
+
+    border: 1px solid gray;
+    padding: 3px;
+
+}
+.aboutme-a h1 {
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    color: gray;
+}
+.sample-con {
+
+    background-color: white;
+    margin: 5px auto;
+    width: 60%;
+    height: max-content;
+    display: flex;
+    padding: 10px;
+}
+
+.sample-left {
+
+    float: left;
+    width: 50%;
+
+}
+
+.sample-right {
+
+    float: right;
+    width: 50%;
+}
+
+.sample-card {
+
+    border: 5px solid rgb(219, 234, 240);
+    margin: 5px;
+    min-height: 300px;
+}
+
+
+
+.sample-card h4 {
+
+    text-align: center;
+
+}
+
+.sample-card img {
+
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+
+.aboutme-b {
+
+    width: 40%;
+    float: right;
+    
+}
+
+.aboutme-b img {
+
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+}
+
+.about-con {
+
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+
+
+}
+
+.footer {
+
+    width: 100%;
+    height: max-content;
+    background-color: dimgray;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer a {
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer a:hover {
+
+    color: white;
+    
+}
+
+.footer-a {
+
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer-a p {
+
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.footer-a2 p {
+
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer-a2 a:hover {
+
+    color: black;
+}
+.footer-a1 {
+
+    float: left;
+    width: 50%;
+}
+
+.footer-a1 a {
+
+    color: black;
+}
+.footer-a2 {
+
+    float: right;
+    width: 50%;
+}
+
+.both {
+
+    clear: both;
+}
+
+.footer-b {
+
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: dimgray;
+    border-top: 1px solid white;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+
+.welcome-div {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+.welcomea-div,
+.welcomea2-div {
+    width: 100%;
+    float: none;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  }
+
+.welcomea2-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.about-me, .inside, .inside-1, .inside-2, .div-text1, .div-img1 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    float: none;
+    display: flex;
+    margin: auto;
+  }
+
+  .inside-2 {
+    padding: 5%;
+  }
+
+
+.inside p {
+    
+    margin: 0;
+    float: none;
+    height: max-content;
+    display: block;
+  }
+
+  .sample-con, .sample-left, .sample-right {
+
+    float: none;
+    width: 100%;
+    margin: auto;
+    display: block;
+    min-height: max-content;
+    
+  }
+
+  .working-hour {
+
+    width: 100%;
+    float: none;
+    display: flex;
+    height: max-content;
+  }
+
+.bg-section h1 {
+    font-size: 2rem;
+  }
+
+.bg-section p {
+    font-size: 1.125rem;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
